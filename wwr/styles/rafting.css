@@ -158,7 +158,7 @@ color: var(--accent2-color);
   margin: auto;
 }
 
-.adventure h1{
+.adventure h2{
   color: var(--accent2-color);
   font-family: var(--reading-font);
   font-size: 2rem;
