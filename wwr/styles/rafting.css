@@ -84,7 +84,7 @@ main {
   display: block;
 }
 
-.hero h2 {
+.hero h1 {
 
   background-color: var(--accent1-color);
   color: white;
@@ -116,6 +116,13 @@ main {
   margin-bottom: 2rem;
 }
 
+.history h1{
+color: var(--accent2-color);
+  font-family: var(--reading-font);
+  font-size: 2rem;
+  text-align: center;
+}
+
 .history-grid {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -143,7 +150,7 @@ main {
 }
 
 .gallery figure {
-  border: thin #c0c0c0 solid;
+  border: var(--accent2-color) solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
@@ -151,6 +158,13 @@ main {
   margin: auto;
 }
 
+.adventure h1{
+  color: var(--accent2-color);
+  font-family: var(--reading-font);
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
 
 .gallery img {
   width: 100px;
