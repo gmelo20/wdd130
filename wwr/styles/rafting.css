@@ -236,3 +236,11 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: var(--accent2-color);
 }
+
+.map-frame {
+  width: 600px;
+  height: 450px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
